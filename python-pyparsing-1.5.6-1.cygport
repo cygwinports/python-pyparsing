@@ -1,0 +1,5 @@
+inherit distutils
+
+HOMEPAGE="http://pyparsing.wikispaces.com/"
+
+DOCS="HowToUsePyparsing.html"
