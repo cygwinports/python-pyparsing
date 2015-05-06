@@ -1,14 +1,15 @@
-inherit distutils
+inherit python-distutils
 
 NAME="python-pyparsing"
-VERSION=1.5.7
+VERSION=2.0.3
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python grammar parsing module"
 DESCRIPTION="pyparsing is a general parsing module for Python. Grammars are
-implemented directly in the client code using parsing objects, instead of
-externally, as with lex/yacc-type tools."
+implemented directly in the client code using parsing objects, instead
+of externally, as with lex/yacc-type tools."
 HOMEPAGE="http://pyparsing.wikispaces.com/"
-SRC_URI="mirror://sourceforge/pyparsing/pyparsing-${VERSION}.tar.gz"
+
+ARCH=noarch
 
 DOCS="HowToUsePyparsing.html"
