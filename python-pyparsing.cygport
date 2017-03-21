@@ -1,7 +1,7 @@
-inherit python-distutils
+inherit python-wheel
 
 NAME="python-pyparsing"
-VERSION=2.0.3
+VERSION=2.1.10
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python grammar parsing module"
