@@ -1,14 +1,13 @@
 inherit python-wheel
 
 NAME="python-pyparsing"
-VERSION=2.1.10
+VERSION=2.3.1
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python grammar parsing module"
 DESCRIPTION="pyparsing is a general parsing module for Python. Grammars are
 implemented directly in the client code using parsing objects, instead
 of externally, as with lex/yacc-type tools."
-HOMEPAGE="http://pyparsing.wikispaces.com/"
 
 ARCH=noarch
 
